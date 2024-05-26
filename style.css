@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.father{
+  background-color: #9ec91e;
+  width: 50%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 912px) {
+  .father{
+    width: 100%;
+  }
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  flex-wrap: wrap;
+}
+
+header p{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 12px;
+}
+@media screen and (max-width: 37.5em) {
+  header{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  header p{
+    font-size: 10px;
+  }
+  header .scores{
+    margin-top: 7px;
+  }
+}
+/*Computer Section*/
+.compSection{
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.compSection h3{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+
+.compSection .compchill{
+  border: 2px dashed black;
+  width: 20%;
+  height: 20%;
+}
+
+.compSection .compchill h1{
+  font-size: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 37.5em) {
+  .compSection .compchill h1{
+    font-size: 60px;
+  }
+}
+
+.results{
+  background-color: #f2c244;
+  padding: 20px 0;
+}
+
+.results h2{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (max-width: 37.5em) {
+  .results h2{
+    font-size: 15px;
+  }
+}
+
+.Playersection{
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Playersection h3{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+
+.Playersection .Playerchill{
+  border: 2px dashed black;
+  width: 20%;
+  height: 20%;
+}
+
+.Playersection .Playerchill h1{
+  font-size: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 37.5em) {
+  .Playersection .Playerchill h1{
+    font-size: 60px;
+  }
+}
+
+.gameChoice{
+  display: flex;
+  justify-content: center;
+}
+
+.gameChoice div{
+  background-color: white;
+  margin-right: 10px;
+  width: 130px;
+  height: 120px;
+  padding: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.gameChoice .ScissorsDiv{
+  margin-right: 0;
+}
+
+.gameChoice div h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.gameChoice div h3{
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 37.5em) {
+  .gameChoice div{
+    width: 110px;
+    height: 100px;
+  }
+  .gameChoice div h1{
+    font-size: 40px;
+  }
+  .gameChoice div h3{
+    font-size: 10px;
+  }
+  
+}
